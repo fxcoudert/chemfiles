@@ -1,0 +1,34 @@
+dd {
+    margin-left: 2em;
+}
+
+a {
+    color: #3da48e;
+}
+
+.note a {
+    color: #b0f9e9;
+}
+
+pre {
+    color: black;
+    background-color: #f8f8fc;
+    border: none;
+}
+
+code {
+    color: inherit;
+    background-color: #fafaff;
+}
+
+/* Breathe creates class description with both breathe-sectiondef and container
+classes. This make the class description use the container width, and not fit
+on the page anymore. */
+.breathe-sectiondef {
+    width: inherit;
+}
+
+hr.docutils {
+    border: 1px solid;
+    width: 50%
+}
